@@ -44,3 +44,4 @@ waitKey stub
 root@MaixLinux:~# 
 ```
 
+![output](./../assets/nanodet-D1.png)
