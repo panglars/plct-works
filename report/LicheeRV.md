@@ -10,6 +10,7 @@ Lichee RV Dock does not support wired networks, and I can't use the official doc
 > scan
 OK
 <3>CTRL-EVENT-SCAN-RESULTS
+
 > scan_results
 bssid / frequency / signal level / flags / ssid
 00:00:00:00:00:00 2462 -49 [WPA2-PSK-CCMP][ESS] MYSSID
