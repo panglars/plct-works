@@ -207,3 +207,58 @@ Perf-Dashboard/SelectingRange/Async,27,22,35,65,38,27,34,21,30,22,32.1
 Geomean,2137.6245898562483,2077.396545484707,2061.8525785621623,2035.8967855643152,2121.041318615891,2086.267058861761,2090.4024835388745,2139.788438038691,2119.3935216355194,2225.3983523766037,2109.506167253477
 Score,0.4678089898223188,0.48137174492445095,0.48500072720880577,0.49118403599366034,0.471466534490974,0.4793250201369648,0.47837677570449716,0.4673359207962588,0.47183309271810353,0.4493577515827918,0.4743060593378825
 ```
+
+## basemark
+
+https://web.basemark.com/
+
+```
+desktop using Linux 0.0 with Firefox 118.0 score:
+39.02
+Share: Share on Facebook Tweet Share on LinkedIn
+breakdownbreakdown
+Conformance
+CSS Capabilities
+59.18%
+HTML5 Capabilities
+91.35%
+Page Load and Responsiveness Capabilities
+91.59%
+Resize Capabilities
+75.86%
+
+libEGL warning: DRI3: Screen seems not DRI3 capable
+libEGL warning: DRI3: Screen seems not DRI3 capable
+MESA: error: ZINK: vkCreateInstance failed (VK_ERROR_INCOMPATIBLE_DRIVER)
+libEGL warning: egl: failed to create dri2 screen
+libEGL warning: DRI3: Screen seems not DRI3 capable
+libEGL warning: DRI3: Screen seems not DRI3 capable
+MESA: error: ZINK: vkCreateInstance failed (VK_ERROR_INCOMPATIBLE_DRIVER)
+libEGL warning: egl: failed to create dri2 screen
+``` 
+
+## drm 
+
+https://bitmovin.com/demos/drm
+
+```
+
+Media Source Extension – MSE
+
+MSE is supported by your current browser.
+
++    video/mp4; codecs="avc1.42c00d"
+x    video/mp4; codecs="ec-3"
++    video/webm; codecs="vorbis,vp8"
+x    video/mp2t; codecs="avc1.42E01E,mp4a.40.2"
+
+Encrypted Media Extension – EME
+
+EME is not supported by your current browser.
+
+x    widevine
+x    playready
+x    primetime
+x    fairplay
+
+```
