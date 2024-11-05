@@ -8,7 +8,7 @@ vncviewer :1
 
 ## speedometer 3
 
-```
+```csv
 Name,#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,Mean
 TodoMVC-JavaScript-ES5,1533,1396,1443,1463,1570,1514,1440,1475,1586,4097,1751.7
 TodoMVC-JavaScript-ES5/Adding100Items,1022,906,938,977,1012,1010,941,965,1033,3552,1235.6
@@ -227,6 +227,9 @@ Page Load and Responsiveness Capabilities
 Resize Capabilities
 75.86%
 
+```
+
+```log
 libEGL warning: DRI3: Screen seems not DRI3 capable
 libEGL warning: DRI3: Screen seems not DRI3 capable
 MESA: error: ZINK: vkCreateInstance failed (VK_ERROR_INCOMPATIBLE_DRIVER)
