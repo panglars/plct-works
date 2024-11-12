@@ -1,0 +1,267 @@
+## VNC
+
+```
+vncserver
+
+vncviewer :1
+```
+
+## speedometer 3
+
+```csv
+Name,#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,Mean
+TodoMVC-JavaScript-ES5,1520,1522,1419,1403,1402,2080,1471,1448,1427,1615,1530.7
+TodoMVC-JavaScript-ES5/Adding100Items,1029,973,912,946,930,1600,962,974,950,1072,1034.8
+TodoMVC-JavaScript-ES5/Adding100Items/Sync,924,865,846,840,856,847,881,864,889,979,879.1
+TodoMVC-JavaScript-ES5/Adding100Items/Async,105,108,66,106,74,753,81,110,61,93,155.7
+TodoMVC-JavaScript-ES5/CompletingAllItems,272,327,272,249,254,263,271,263,255,294,272
+TodoMVC-JavaScript-ES5/CompletingAllItems/Sync,244,236,226,222,218,228,223,236,229,245,230.7
+TodoMVC-JavaScript-ES5/CompletingAllItems/Async,28,91,46,27,36,35,48,27,26,49,41.3
+TodoMVC-JavaScript-ES5/DeletingAllItems,219,222,235,208,218,217,238,211,222,249,223.9
+TodoMVC-JavaScript-ES5/DeletingAllItems/Sync,206,213,215,200,200,208,202,202,200,213,205.9
+TodoMVC-JavaScript-ES5/DeletingAllItems/Async,13,9,20,8,18,9,36,9,22,36,18
+TodoMVC-JavaScript-ES6-Webpack-Complex-DOM,2216,1733,1831,1660,1738,1710,1795,1705,1738,1918,1804.4
+TodoMVC-JavaScript-ES6-Webpack-Complex-DOM/Adding100Items,984,771,838,754,789,764,814,770,830,907,822.1
+TodoMVC-JavaScript-ES6-Webpack-Complex-DOM/Adding100Items/Sync,851,699,749,683,683,689,728,694,746,806,732.8
+TodoMVC-JavaScript-ES6-Webpack-Complex-DOM/Adding100Items/Async,133,72,89,71,106,75,86,76,84,101,89.3
+TodoMVC-JavaScript-ES6-Webpack-Complex-DOM/CompletingAllItems,663,527,553,481,520,515,517,515,507,553,535.1
+TodoMVC-JavaScript-ES6-Webpack-Complex-DOM/CompletingAllItems/Sync,442,439,457,423,431,429,450,426,425,455,437.7
+TodoMVC-JavaScript-ES6-Webpack-Complex-DOM/CompletingAllItems/Async,221,88,96,58,89,86,67,89,82,98,97.4
+TodoMVC-JavaScript-ES6-Webpack-Complex-DOM/DeletingAllItems,569,435,440,425,429,431,464,420,401,458,447.2
+TodoMVC-JavaScript-ES6-Webpack-Complex-DOM/DeletingAllItems/Sync,358,371,394,363,372,368,384,359,362,401,373.2
+TodoMVC-JavaScript-ES6-Webpack-Complex-DOM/DeletingAllItems/Async,211,64,46,62,57,63,80,61,39,57,74
+TodoMVC-WebComponents,712,822,783,766,749,768,711,719,756,807,759.3
+TodoMVC-WebComponents/Adding100Items,350,346,401,355,389,356,336,344,375,418,367
+TodoMVC-WebComponents/Adding100Items/Sync,256,254,263,257,268,255,249,249,269,276,259.6
+TodoMVC-WebComponents/Adding100Items/Async,94,92,138,98,121,101,87,95,106,142,107.4
+TodoMVC-WebComponents/CompletingAllItems,190,245,200,222,192,201,205,198,201,204,205.8
+TodoMVC-WebComponents/CompletingAllItems/Sync,141,185,150,159,143,143,140,138,140,154,149.3
+TodoMVC-WebComponents/CompletingAllItems/Async,49,60,50,63,49,58,65,60,61,50,56.5
+TodoMVC-WebComponents/DeletingAllItems,172,231,182,189,168,211,170,177,180,185,186.5
+TodoMVC-WebComponents/DeletingAllItems/Sync,163,223,174,166,161,202,161,160,162,177,174.9
+TodoMVC-WebComponents/DeletingAllItems/Async,9,8,8,23,7,9,9,17,18,8,11.6
+TodoMVC-React-Complex-DOM,3609,4157,3598,3491,4038,3410,3703,3622,3563,3582,3677.3
+TodoMVC-React-Complex-DOM/Adding100Items,1260,1297,1202,1231,1220,1176,1478,1355,1312,1326,1285.7
+TodoMVC-React-Complex-DOM/Adding100Items/Sync,1062,1149,1063,1089,1079,1055,1078,1065,1162,1117,1091.9
+TodoMVC-React-Complex-DOM/Adding100Items/Async,198,148,139,142,141,121,400,290,150,209,193.8
+TodoMVC-React-Complex-DOM/CompletingAllItems,1469,1490,1375,1368,1437,1346,1349,1364,1365,1371,1393.4
+TodoMVC-React-Complex-DOM/CompletingAllItems/Sync,1240,1315,1267,1274,1261,1250,1255,1271,1264,1275,1267.2
+TodoMVC-React-Complex-DOM/CompletingAllItems/Async,229,175,108,94,176,96,94,93,101,96,126.2
+TodoMVC-React-Complex-DOM/DeletingAllItems,880,1370,1021,892,1381,888,876,903,886,885,998.2
+TodoMVC-React-Complex-DOM/DeletingAllItems/Sync,835,868,968,841,836,839,825,855,837,839,854.3
+TodoMVC-React-Complex-DOM/DeletingAllItems/Async,45,502,53,51,545,49,51,48,49,46,143.9
+TodoMVC-React-Redux,4060,4216,4123,4073,4268,4425,4360,4073,4778,4330,4270.6
+TodoMVC-React-Redux/Adding100Items,1326,1332,1334,1294,1486,1390,1417,1324,1443,1373,1371.9
+TodoMVC-React-Redux/Adding100Items/Sync,1242,1239,1214,1209,1331,1254,1256,1239,1262,1251,1249.7
+TodoMVC-React-Redux/Adding100Items/Async,84,93,120,85,155,136,161,85,181,122,122.2
+TodoMVC-React-Redux/CompletingAllItems,1706,1820,1722,1715,1730,1989,1855,1708,2273,1906,1842.4
+TodoMVC-React-Redux/CompletingAllItems/Sync,1664,1727,1655,1675,1701,1661,1655,1668,1676,1813,1689.5
+TodoMVC-React-Redux/CompletingAllItems/Async,42,93,67,40,29,328,200,40,597,93,152.9
+TodoMVC-React-Redux/DeletingAllItems,1028,1064,1067,1064,1052,1046,1088,1041,1062,1051,1056.3
+TodoMVC-React-Redux/DeletingAllItems/Sync,1015,1049,1052,1036,1033,1032,1026,1025,1047,1031,1034.6
+TodoMVC-React-Redux/DeletingAllItems/Async,13,15,15,28,19,14,62,16,15,20,21.7
+TodoMVC-Backbone,1253,1282,1428,1384,1484,1379,1378,1398,1361,1263,1361
+TodoMVC-Backbone/Adding100Items,631,642,638,665,628,682,753,665,670,637,661.1
+TodoMVC-Backbone/Adding100Items/Sync,577,585,578,568,578,604,569,564,615,581,581.9
+TodoMVC-Backbone/Adding100Items/Async,54,57,60,97,50,78,184,101,55,56,79.2
+TodoMVC-Backbone/CompletingAllItems,354,368,346,396,368,388,347,416,386,355,372.4
+TodoMVC-Backbone/CompletingAllItems/Sync,299,309,297,292,314,319,299,311,332,305,307.7
+TodoMVC-Backbone/CompletingAllItems/Async,55,59,49,104,54,69,48,105,54,50,64.7
+TodoMVC-Backbone/DeletingAllItems,268,272,444,323,488,309,278,317,305,271,327.5
+TodoMVC-Backbone/DeletingAllItems/Sync,254,261,254,256,271,278,261,255,291,253,263.4
+TodoMVC-Backbone/DeletingAllItems/Async,14,11,190,67,217,31,17,62,14,18,64.1
+TodoMVC-Angular-Complex-DOM,3894,3825,3738,3701,3980,3883,3818,3723,3825,3880,3826.7
+TodoMVC-Angular-Complex-DOM/Adding100Items,1840,1824,1817,1795,1981,1805,1852,1770,1881,1929,1849.4
+TodoMVC-Angular-Complex-DOM/Adding100Items/Sync,1685,1745,1707,1717,1869,1725,1711,1693,1800,1722,1737.4
+TodoMVC-Angular-Complex-DOM/Adding100Items/Async,155,79,110,78,112,80,141,77,81,207,112
+TodoMVC-Angular-Complex-DOM/CompletingAllItems,1222,1170,1131,1115,1207,1209,1170,1139,1160,1143,1166.6
+TodoMVC-Angular-Complex-DOM/CompletingAllItems/Sync,1090,1083,1046,1030,1082,1106,1069,1037,1063,1051,1065.7
+TodoMVC-Angular-Complex-DOM/CompletingAllItems/Async,132,87,85,85,125,103,101,102,97,92,100.9
+TodoMVC-Angular-Complex-DOM/DeletingAllItems,832,831,790,791,792,869,796,814,784,808,810.7
+TodoMVC-Angular-Complex-DOM/DeletingAllItems/Sync,782,785,747,746,743,778,747,740,739,762,756.9
+TodoMVC-Angular-Complex-DOM/DeletingAllItems/Async,50,46,43,45,49,91,49,74,45,46,53.8
+TodoMVC-Vue,1245,1199,1210,1183,1461,1189,1734,1247,1184,1180,1283.2
+TodoMVC-Vue/Adding100Items,617,617,584,571,682,579,585,625,558,571,598.9
+TodoMVC-Vue/Adding100Items/Sync,93,106,83,83,98,84,85,85,82,85,88.4
+TodoMVC-Vue/Adding100Items/Async,524,511,501,488,584,495,500,540,476,486,510.5
+TodoMVC-Vue/CompletingAllItems,269,245,265,259,341,250,246,291,265,260,269.1
+TodoMVC-Vue/CompletingAllItems/Sync,48,55,49,43,94,44,51,71,45,45,54.5
+TodoMVC-Vue/CompletingAllItems/Async,221,190,216,216,247,206,195,220,220,215,214.6
+TodoMVC-Vue/DeletingAllItems,359,337,361,353,438,360,903,331,361,349,415.2
+TodoMVC-Vue/DeletingAllItems/Sync,284,275,278,275,354,287,274,270,277,279,285.3
+TodoMVC-Vue/DeletingAllItems/Async,75,62,83,78,84,73,629,61,84,70,129.9
+TodoMVC-jQuery,7061,7766,6618,6702,6745,6700,6843,8185,6661,6854,7013.5
+TodoMVC-jQuery/Adding100Items,1810,2628,1644,1730,1770,1683,1674,1645,1636,1673,1789.3
+TodoMVC-jQuery/Adding100Items/Sync,1769,1650,1608,1690,1667,1606,1599,1607,1601,1618,1641.5
+TodoMVC-jQuery/Adding100Items/Async,41,978,36,40,103,77,75,38,35,55,147.8
+TodoMVC-jQuery/CompletingAllItems,3405,3343,3178,3166,3190,3232,3274,3331,3226,3347,3269.2
+TodoMVC-jQuery/CompletingAllItems/Sync,3357,3183,3140,3125,3149,3192,3234,3239,3182,3262,3206.3
+TodoMVC-jQuery/CompletingAllItems/Async,48,160,38,41,41,40,40,92,44,85,62.9
+TodoMVC-jQuery/DeletingAllItems,1846,1795,1796,1806,1785,1785,1895,3209,1799,1834,1955
+TodoMVC-jQuery/DeletingAllItems/Sync,1835,1786,1780,1788,1776,1772,1877,1809,1780,1818,1802.1
+TodoMVC-jQuery/DeletingAllItems/Async,11,9,16,18,9,13,18,1400,19,16,152.9
+TodoMVC-Preact-Complex-DOM,640,627,547,419,556,448,533,421,573,471,523.5
+TodoMVC-Preact-Complex-DOM/Adding100Items,333,240,195,190,302,196,238,197,289,216,239.6
+TodoMVC-Preact-Complex-DOM/Adding100Items/Sync,46,26,27,26,29,28,39,27,48,26,32.2
+TodoMVC-Preact-Complex-DOM/Adding100Items/Async,287,214,168,164,273,168,199,170,241,190,207.4
+TodoMVC-Preact-Complex-DOM/CompletingAllItems,205,320,258,159,182,184,197,156,190,185,203.6
+TodoMVC-Preact-Complex-DOM/CompletingAllItems/Sync,40,194,32,33,30,32,33,32,31,32,48.9
+TodoMVC-Preact-Complex-DOM/CompletingAllItems/Async,165,126,226,126,152,152,164,124,159,153,154.7
+TodoMVC-Preact-Complex-DOM/DeletingAllItems,102,67,94,70,72,68,98,68,94,70,80.3
+TodoMVC-Preact-Complex-DOM/DeletingAllItems/Sync,22,18,19,20,21,19,20,20,20,19,19.8
+TodoMVC-Preact-Complex-DOM/DeletingAllItems/Async,80,49,75,50,51,49,78,48,74,51,60.5
+TodoMVC-Svelte-Complex-DOM,513,336,359,391,388,353,422,497,412,399,407
+TodoMVC-Svelte-Complex-DOM/Adding100Items,315,186,184,212,186,183,198,209,196,193,206.2
+TodoMVC-Svelte-Complex-DOM/Adding100Items/Sync,89,69,66,75,68,68,73,77,70,69,72.4
+TodoMVC-Svelte-Complex-DOM/Adding100Items/Async,226,117,118,137,118,115,125,132,126,124,133.8
+TodoMVC-Svelte-Complex-DOM/CompletingAllItems,124,80,82,86,112,81,119,199,83,114,108
+TodoMVC-Svelte-Complex-DOM/CompletingAllItems/Sync,18,16,18,18,16,16,18,106,16,17,25.9
+TodoMVC-Svelte-Complex-DOM/CompletingAllItems/Async,106,64,64,68,96,65,101,93,67,97,82.1
+TodoMVC-Svelte-Complex-DOM/DeletingAllItems,74,70,93,93,90,89,105,89,133,92,92.8
+TodoMVC-Svelte-Complex-DOM/DeletingAllItems/Sync,17,14,14,15,14,15,17,15,16,15,15.2
+TodoMVC-Svelte-Complex-DOM/DeletingAllItems/Async,57,56,79,78,76,74,88,74,117,77,77.6
+TodoMVC-Lit-Complex-DOM,777,673,732,659,1531,749,753,1025,722,707,832.8
+TodoMVC-Lit-Complex-DOM/Adding100Items,372,331,318,313,1132,356,361,500,370,370,442.3
+TodoMVC-Lit-Complex-DOM/Adding100Items/Sync,42,34,34,37,36,39,38,68,39,44,41.1
+TodoMVC-Lit-Complex-DOM/Adding100Items/Async,330,297,284,276,1096,317,323,432,331,326,401.2
+TodoMVC-Lit-Complex-DOM/CompletingAllItems,211,196,196,199,199,202,197,279,209,194,208.2
+TodoMVC-Lit-Complex-DOM/CompletingAllItems/Sync,43,38,38,39,38,39,42,39,40,40,39.6
+TodoMVC-Lit-Complex-DOM/CompletingAllItems/Async,168,158,158,160,161,163,155,240,169,154,168.6
+TodoMVC-Lit-Complex-DOM/DeletingAllItems,194,146,218,147,200,191,195,246,143,143,182.3
+TodoMVC-Lit-Complex-DOM/DeletingAllItems/Sync,45,33,32,32,32,33,35,34,33,33,34.2
+TodoMVC-Lit-Complex-DOM/DeletingAllItems/Async,149,113,186,115,168,158,160,212,110,110,148.1
+NewsSite-Next,4151,3701,4585,4572,3792,3990,3778,3848,3847,4458,4072.2
+NewsSite-Next/NavigateToUS,1703,1416,2304,2186,1464,1640,1407,1498,1510,1465,1659.3
+NewsSite-Next/NavigateToUS/Sync,655,510,556,568,510,597,506,541,521,523,548.7
+NewsSite-Next/NavigateToUS/Async,1048,906,1748,1618,954,1043,901,957,989,942,1110.6
+NewsSite-Next/NavigateToWorld,1283,1203,1189,1285,1237,1243,1287,1212,1232,1201,1237.2
+NewsSite-Next/NavigateToWorld/Sync,555,522,517,608,520,521,566,526,531,513,537.9
+NewsSite-Next/NavigateToWorld/Async,728,681,672,677,717,722,721,686,701,688,699.3
+NewsSite-Next/NavigateToPolitics,1165,1082,1092,1101,1091,1107,1084,1138,1105,1792,1175.7
+NewsSite-Next/NavigateToPolitics/Sync,537,513,519,521,521,522,511,522,516,535,521.7
+NewsSite-Next/NavigateToPolitics/Async,628,569,573,580,570,585,573,616,589,1257,654
+NewsSite-Nuxt,3207,3694,3183,3159,3303,5231,3142,3448,6079,3212,3765.8
+NewsSite-Nuxt/NavigateToUS,1110,1166,1111,1110,1103,2798,1050,1185,2894,1034,1456.1
+NewsSite-Nuxt/NavigateToUS/Sync,265,278,264,260,285,282,265,293,264,289,274.5
+NewsSite-Nuxt/NavigateToUS/Async,845,888,847,850,818,2516,785,892,2630,745,1181.6
+NewsSite-Nuxt/NavigateToWorld,1020,1410,1017,1010,1072,1360,1020,1153,2119,1143,1232.4
+NewsSite-Nuxt/NavigateToWorld/Sync,258,277,252,252,264,282,250,286,277,272,267
+NewsSite-Nuxt/NavigateToWorld/Async,762,1133,765,758,808,1078,770,867,1842,871,965.4
+NewsSite-Nuxt/NavigateToPolitics,1077,1118,1055,1039,1128,1073,1072,1110,1066,1035,1077.3
+NewsSite-Nuxt/NavigateToPolitics/Sync,256,273,251,250,267,269,251,261,264,257,259.9
+NewsSite-Nuxt/NavigateToPolitics/Async,821,845,804,789,861,804,821,849,802,778,817.4
+Editor-CodeMirror,723,705,681,676,680,689,2063,703,698,673,829.1
+Editor-CodeMirror/Long,597,589,569,566,570,569,1956,594,579,564,715.3
+Editor-CodeMirror/Long/Sync,489,480,464,469,472,466,462,492,474,466,473.4
+Editor-CodeMirror/Long/Async,108,109,105,97,98,103,1494,102,105,98,241.9
+Editor-CodeMirror/Highlight,126,116,112,110,110,120,107,109,119,109,113.8
+Editor-CodeMirror/Highlight/Sync,114,94,96,98,97,98,95,97,98,97,98.4
+Editor-CodeMirror/Highlight/Async,12,22,16,12,13,22,12,12,21,12,15.4
+Editor-TipTap,2779,2678,4601,3569,2669,2867,2573,4075,2711,2530,3105.2
+Editor-TipTap/Long,933,942,2810,866,908,906,918,2211,974,874,1234.2
+Editor-TipTap/Long/Sync,850,870,835,832,859,846,833,854,882,838,849.9
+Editor-TipTap/Long/Async,83,72,1975,34,49,60,85,1357,92,36,384.3
+Editor-TipTap/Highlight,1846,1736,1791,2703,1761,1961,1655,1864,1737,1656,1871
+Editor-TipTap/Highlight/Sync,1681,1644,1628,1628,1642,1608,1640,1655,1660,1640,1642.6
+Editor-TipTap/Highlight/Async,165,92,163,1075,119,353,15,209,77,16,228.4
+Charts-observable-plot,3135,3128,3111,2980,3029,3031,3124,3142,3008,3121,3080.9
+Charts-observable-plot/Stacked by 6,1242,1251,1214,1200,1229,1214,1223,1230,1214,1309,1232.6
+Charts-observable-plot/Stacked by 6/Sync,1164,1183,1145,1140,1168,1151,1155,1158,1150,1143,1155.7
+Charts-observable-plot/Stacked by 6/Async,78,68,69,60,61,63,68,72,64,166,76.9
+Charts-observable-plot/Stacked by 20,1548,1537,1533,1443,1454,1466,1552,1562,1453,1462,1501
+Charts-observable-plot/Stacked by 20/Sync,1432,1444,1437,1370,1379,1387,1425,1451,1373,1391,1408.9
+Charts-observable-plot/Stacked by 20/Async,116,93,96,73,75,79,127,111,80,71,92.1
+Charts-observable-plot/Dotted,345,340,364,337,346,351,349,350,341,350,347.3
+Charts-observable-plot/Dotted/Sync,282,277,294,276,284,283,285,287,278,291,283.7
+Charts-observable-plot/Dotted/Async,63,63,70,61,62,68,64,63,63,59,63.6
+Charts-chartjs,4431,4755,4283,4401,4298,4726,4333,4316,4686,4556,4478.5
+Charts-chartjs/Draw scatter,2186,2531,2087,2192,2075,2534,2113,2106,2106,2265,2219.5
+Charts-chartjs/Draw scatter/Sync,2173,2142,2074,2110,2068,2066,2096,2092,2099,2176,2109.6
+Charts-chartjs/Draw scatter/Async,13,389,13,82,7,468,17,14,7,89,109.9
+Charts-chartjs/Show tooltip,790,787,774,766,772,769,770,780,767,813,778.8
+Charts-chartjs/Show tooltip/Sync,2,2,2,3,1,2,2,2,2,3,2.1
+Charts-chartjs/Show tooltip/Async,788,785,772,763,771,767,768,778,765,810,776.7
+Charts-chartjs/Draw opaque scatter,1455,1437,1422,1443,1451,1423,1450,1430,1813,1478,1480.2
+Charts-chartjs/Draw opaque scatter/Sync,1450,1430,1416,1435,1446,1418,1444,1425,1431,1468,1436.3
+Charts-chartjs/Draw opaque scatter/Async,5,7,6,8,5,5,6,5,382,10,43.9
+React-Stockcharts-SVG,5271,4975,5194,4846,4855,5179,4865,5472,4969,5406,5103.2
+React-Stockcharts-SVG/Render,1882,1550,1840,1478,1510,1573,1532,2046,1573,1952,1693.6
+React-Stockcharts-SVG/Render/Sync,1429,1428,1393,1410,1400,1432,1389,1444,1456,1434,1421.5
+React-Stockcharts-SVG/Render/Async,453,122,447,68,110,141,143,602,117,518,272.1
+React-Stockcharts-SVG/PanTheChart,467,522,470,461,456,727,451,479,491,472,499.6
+React-Stockcharts-SVG/PanTheChart/Sync,169,164,181,168,163,167,161,181,161,169,168.4
+React-Stockcharts-SVG/PanTheChart/Async,298,358,289,293,293,560,290,298,330,303,331.2
+React-Stockcharts-SVG/ZoomTheChart,2922,2903,2884,2907,2889,2879,2882,2947,2905,2982,2910
+React-Stockcharts-SVG/ZoomTheChart/Sync,2585,2564,2553,2575,2555,2545,2559,2614,2576,2639,2576.5
+React-Stockcharts-SVG/ZoomTheChart/Async,337,339,331,332,334,334,323,333,329,343,333.5
+Perf-Dashboard,3942,4486,3929,3946,3924,3935,3904,3959,4472,3907,4040.4
+Perf-Dashboard/Render,111,123,112,111,112,111,117,119,114,113,114.3
+Perf-Dashboard/Render/Sync,37,36,36,37,38,36,37,36,36,39,36.8
+Perf-Dashboard/Render/Async,74,87,76,74,74,75,80,83,78,74,77.5
+Perf-Dashboard/SelectingPoints,2905,3443,2914,2905,2901,2910,2879,2896,3453,2894,3010
+Perf-Dashboard/SelectingPoints/Sync,2876,2871,2883,2883,2864,2888,2851,2869,2841,2865,2869.1
+Perf-Dashboard/SelectingPoints/Async,29,572,31,22,37,22,28,27,612,29,140.9
+Perf-Dashboard/SelectingRange,926,920,903,930,911,914,908,944,905,900,916.1
+Perf-Dashboard/SelectingRange/Sync,895,895,875,905,882,890,880,919,883,873,889.7
+Perf-Dashboard/SelectingRange/Async,31,25,28,25,29,24,28,25,22,27,26.4
+Geomean,2106.816607105087,2071.049328450687,2080.364066028726,1992.4242871786134,2121.4410796874345,2089.0762902754786,2166.5319238533007,2119.0043224751976,2111.25587515205,2035.7832335658713,2089.374701377245
+Score,0.47464976145886273,0.4828470216825213,0.48068509561835115,0.5019011294105721,0.471377692067383,0.47868046018948107,0.4615671659346902,0.4719197546666188,0.47365173107119535,0.4912114332764217,0.47884912453760975
+```
+
+## basemark
+
+https://web.basemark.com/
+
+```
+desktop using Linux 0.0 with Firefox 118.0 score:
+39.02
+Share: Share on Facebook Tweet Share on LinkedIn
+breakdownbreakdown
+Conformance
+CSS Capabilities
+59.18%
+HTML5 Capabilities
+91.35%
+Page Load and Responsiveness Capabilities
+91.59%
+Resize Capabilities
+75.86%
+
+```
+
+```log
+libEGL warning: DRI3: Screen seems not DRI3 capable
+libEGL warning: DRI3: Screen seems not DRI3 capable
+MESA: error: ZINK: vkCreateInstance failed (VK_ERROR_INCOMPATIBLE_DRIVER)
+libEGL warning: egl: failed to create dri2 screen
+libEGL warning: DRI3: Screen seems not DRI3 capable
+libEGL warning: DRI3: Screen seems not DRI3 capable
+MESA: error: ZINK: vkCreateInstance failed (VK_ERROR_INCOMPATIBLE_DRIVER)
+libEGL warning: egl: failed to create dri2 screen
+``` 
+
+## drm 
+
+https://bitmovin.com/demos/drm
+
+```
+
+Media Source Extension – MSE
+
+MSE is supported by your current browser.
+
++    video/mp4; codecs="avc1.42c00d"
+x    video/mp4; codecs="ec-3"
++    video/webm; codecs="vorbis,vp8"
+x    video/mp2t; codecs="avc1.42E01E,mp4a.40.2"
+
+Encrypted Media Extension – EME
+
+EME is not supported by your current browser.
+
+x    widevine
+x    playready
+x    primetime
+x    fairplay
+
+```
