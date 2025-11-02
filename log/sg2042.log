@@ -1,0 +1,31 @@
+debian@revyos-pioneer:~/spec2017/CPU2017LiteWrapper$ make report-int-refrate | tail -n 10 | ./scripts/score.py
+Benchmark Results:
+Benchmark            Time (s)   Ratio     
+500.perlbench_r      1511.21    1.053     
+502.gcc_r            1436.07    0.986     
+505.mcf_r            1279.60    1.263     
+520.omnetpp_r        1675.32    0.783     
+523.xalancbmk_r      1331.92    0.793     
+525.x264_r           1178.81    1.485     
+531.deepsjeng_r      869.27     1.318     
+541.leela_r          1162.55    1.424     
+548.exchange2_r      683.94     3.831     
+557.xz_r             1072.10    1.007     
+Geomean                         1.242     
+debian@revyos-pioneer:~/spec2017/CPU2017LiteWrapper$ make report-fp-refrate | tail -n 13 | ./scripts/score.py
+Benchmark Results:
+Benchmark            Time (s)   Ratio     
+503.bwaves_r         2328.63    4.306     
+507.cactuBSSN_r      1620.35    0.781     
+508.namd_r           574.96     1.652     
+510.parest_r         2159.09    1.212     
+511.povray_r         1734.55    1.346     
+519.lbm_r            1237.94    0.851     
+521.wrf_r            2124.25    1.054     
+526.blender_r        1146.93    1.328     
+527.cam4_r           1448.92    1.207     
+538.imagick_r        2355.98    1.056     
+544.nab_r            1115.22    1.509     
+549.fotonik3d_r      1587.71    2.454     
+554.roms_r           1471.13    1.080     
+Geomean                         1.361     
